@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="prism.css">
-    <title>PostMaster</title>
+        <link rel="stylesheet" href="prism.css">
+        <title>PostMaster</title>
     <style>
         body {
             background-color: #3a34343b;
@@ -23,6 +23,9 @@
             /* margin: 4px; */
         }
 
+        /* .container{
+            position: relative;
+        } */
         h1 {
             text-align: center;
             font-family: monospace;
@@ -38,7 +41,8 @@
             justify-content: center;
             text-align: center;
             position: absolute;
-            bottom: 0px;
+            /* bottom: 0px; */
+            margin-top: 194px;
             width: 100vw;
 
         }
@@ -53,7 +57,8 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="index.html" style="font-size: 20px; color: #ecbeac; font-family: monospace;" class="navbar-brand" href="#">
+        <a href="index.html" style="font-size: 20px; color: #ecbeac; font-family: monospace;" class="navbar-brand"
+            href="#">
             <img id="icon" src="icon4.png" alt="icon">PostMaster</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,18 +81,19 @@
 
     <div class="container">
         <h1 class="my-3">Welcome to PostMaster</h1>
-    </div>
-    <div class="container about">
-        <div>
-            <i>
-                Hi welcome to Postmaster , if you are a developer you might have heard about PostMan where you can make
-                different type of request. I tried to replicate that functionality and named this app PostMaster. Feel
-                free to test and modify it. GitHub link to this is mentioned below. ThankYou.
-            </i>
+        <div class="about">
+            <div>
+                <i>
+                    Hi welcome to Postmaster , if you are a developer you might have heard about PostMan where you can
+                    make
+                    different type of request. I tried to replicate that functionality and named this app PostMaster.
+                    Feel
+                    free to test and modify it. GitHub link to this is mentioned below. ThankYou.
+                </i>
+            </div>
+            <a href="https://github.com/gaurav01k3/PostMaster" target="_blank">PostMaster GitHub Repository</a>
         </div>
-        <a href="https://github.com/gaurav01k3/PostMaster" target="_blank">PostMaster GitHub Repository</a>
     </div>
-
     <!-- Fotter -->
     <div id="footer">
         <div>
@@ -95,6 +101,7 @@
             <a href="https://www.linkedin.com/in/gauravkumar0130/" target="_blank">Linkedin</a>
         </div>
     </div>
+
 
 
 
